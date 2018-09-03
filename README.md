@@ -13,13 +13,13 @@ Could you imagine how much bandwidth we can save if Google, Twitter and Facebook
 ## Install via NPM
 
 ```sh
-npm install j-i-c
+npm install j-i-o
 ```
 
 ## Install via Bower
 
 ```sh
-bower install JIC
+bower install JIO
 ```
 
 
@@ -90,7 +90,7 @@ jic.upload(target_img, server_endpoint, server_var_name, filename, successCallba
 Collaborators
 -------
 
-- Gaurav Singh (https://github.com/gauravs2809)  - Added MIT License
+- [@gauravs2809](https://github.com/gauravs2809)  - Added MIT License
 
 - [@alastairparagas](https://github.com/alastairparagas) - Added errorCallback, progressCallback and customHeaders parameters
  
