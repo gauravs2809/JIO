@@ -1,0 +1,28 @@
+{
+  "name": "JIO",
+  "version": "2.0.2",
+  "homepage": "https://github.com/gauravs2809/JIO",
+  "authors": [
+    "Gaurav Singh <gaurav.s@novostack.com>"
+  ],
+  "description": "Javascript Image Optimizer using HTML5 Canvas & File API that allows you to compress your jpeg & png images before uploading to the server (100% client-side and no extra libraries required!)",
+  "main": "src/JIC.js",
+  "keywords": [
+    "image",
+    "compressor",
+    "javascript",
+    "canvas",
+    "file",
+    "api",
+    "jpeg",
+    "png"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
