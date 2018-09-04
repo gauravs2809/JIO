@@ -50,7 +50,7 @@ var quality =  80,
 // output file format (jpg || png || webp)
 output_format = 'jpg', 
 //This function returns an Image Object 
-target_img.src = jic.compress(source_img,quality,output_format).src;  
+target_img.src = jio.compress(source_img,quality,output_format).src;  
 
 
 //======= Step 2 - Upload compressed image to server =========
@@ -64,7 +64,7 @@ var server_endpoint = 'upload.php',
 var callback = function(response){ console.log(response); }
 
 //Here goes the magic
-jic.upload(target_img, server_endpoint, server_var_name, filename, callback);
+jio.upload(target_img, server_endpoint, server_var_name, filename, callback);
 
 //=======  Optional parameters example: errorCallback, duringCallback and customHeaders ======= 
 // This function gets called on an error response of the server - status code of >= 400.
@@ -81,7 +81,7 @@ var duringCallback = function (progressPercent) {
 
 var customHeaders = { 'Authorization': 'Basic someBase64EncodedHash=====' };
 
-jic.upload(target_img, server_endpoint, server_var_name, filename, successCallback, errorCallback, duringCallback, customHeaders);
+jio.upload(target_img, server_endpoint, server_var_name, filename, successCallback, errorCallback, duringCallback, customHeaders);
 
 
 ```
