@@ -1,5 +1,5 @@
 /*!
- * JIC JavaScript Library v2.0.2
+ * JIO JavaScript Library v2.0.2
  * https://github.com/gauravs2809
  *
  * Copyright 2018, Gaurav Singh
@@ -14,7 +14,7 @@
  * @constructor
  */
 
-var jic = {
+var jio = {
         /**
          * Receives an Image Object (can be JPG, PNG, or WEBP) and returns a new Image Object compressed
          * @param {Image} source_img_obj The source Image Object
