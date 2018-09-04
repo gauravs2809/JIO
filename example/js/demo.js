@@ -95,7 +95,7 @@ $(function() {
         console.log("process start...");
         var time_start = new Date().getTime();
         
-        result_image.src = jic.compress(source_image,quality,output_format).src;
+        result_image.src = jio.compress(source_image,quality,output_format).src;
         
         result_image.onload = function(){
         	var image_width=$(result_image).width(),
@@ -135,7 +135,7 @@ $(function() {
         	console.log(response);        	
         }
         
-        jic.upload(result_image, 'upload.php', 'file', 'new.'+output_format,callback);
+        jio.upload(result_image, 'upload.php', 'file', 'new.'+output_format,callback);
         
        
     }, false);
