@@ -6,10 +6,10 @@
     "Gaurav Singh <gaurav.s@novostack.com>"
   ],
   "description": "Javascript Image Optimizer using HTML5 Canvas & File API that allows you to compress your jpeg & png images before uploading to the server (100% client-side and no extra libraries required!)",
-  "main": "src/JIC.js",
+  "main": "src/JIO.js",
   "keywords": [
     "image",
-    "compressor",
+    "optimizer",
     "javascript",
     "canvas",
     "file",
